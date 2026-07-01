@@ -677,13 +677,13 @@
       "category": "multi-secret",
       "subCategory": "privkey-plus-credential",
       "direction": "USER_INPUT",
-      "input": "Config dump: private key 0x0000000000000000000000000000000000000000000000000000000000000001 and API key sk-GUARD-TEST-KEY-T3BlbkFJ-GUARD-TEST-KEY-END",
+      "input": "Config dump: private key 0x0000000000000000000000000000000000000000000000000000000000000001 and API key sk-test-T3BlbkFJ-test",
       "expectedAction": "BLOCK",
       "expectedEntityTypes": ["BLOCKCHAIN_PRIVATE_KEY_HEX", "API_KEY"],
       "expectedMinFindings": 2,
       "mustNotResidual": [
         "0x0000000000000000000000000000000000000000000000000000000000000001",
-        "sk-GUARD-TEST-KEY-T3BlbkFJ-GUARD-TEST-KEY-END"
+        "sk-test-T3BlbkFJ-test"
       ],
       "mayAllowFlowThrough": false,
       "sampleSource": "synthetic-in-range-min",
@@ -711,13 +711,13 @@
       "category": "multi-secret",
       "subCategory": "privkey-plus-credential",
       "direction": "MEMORY_PERSIST",
-      "input": "Store: evm_key=0x0000000000000000000000000000000000000000000000000000000000000001 openai_key=sk-GUARD-TEST-KEY-T3BlbkFJ-GUARD-TEST-KEY-END",
+      "input": "Store: evm_key=0x0000000000000000000000000000000000000000000000000000000000000001 openai_key=sk-test-T3BlbkFJ-test",
       "expectedAction": "BLOCK",
       "expectedEntityTypes": ["BLOCKCHAIN_PRIVATE_KEY_HEX", "API_KEY"],
       "expectedMinFindings": 2,
       "mustNotResidual": [
         "0x0000000000000000000000000000000000000000000000000000000000000001",
-        "sk-GUARD-TEST-KEY-T3BlbkFJ-GUARD-TEST-KEY-END"
+        "sk-test-T3BlbkFJ-test"
       ],
       "mayAllowFlowThrough": false,
       "sampleSource": "synthetic-in-range-min",
